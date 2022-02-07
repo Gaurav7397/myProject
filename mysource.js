@@ -1,4 +1,4 @@
-const element = document.getElementById("team");
+var element = document.getElementById("team");
 element.addEventListener("click", myFunction);
 
 function myFunction() {
