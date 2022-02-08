@@ -1,3 +1,6 @@
 let myButton = document.getElementById("my-dark-button");
-myButton.addEventListener("click",function myfunction(){alert("In my script"});
+myButton.addEventListener("click",myfunction);
+function myfunction(){
+  alert("In the script");
+}
 
